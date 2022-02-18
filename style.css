@@ -1,6 +1,39 @@
 body {
 	background-color: #333;
+	font-family: Helvetica, sans-serif;
 	color: white;
+	animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.menu {
+	width: 100%;
+	/* Firefox */
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	/* Safari and Chrome */
+  	display: -webkit-box;
+  	-webkit-box-pack: center;
+  	-webkit-box-align: center;
+  	/* W3C */
+  	display: box;
+  	box-pack: center;
+  	box-align: center;
+}
+
+.menu-button {
+	margin: 20px;
 }
 
 a {
@@ -33,3 +66,4 @@ a {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
