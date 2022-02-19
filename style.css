@@ -1,5 +1,5 @@
 body {
-	background-color: #333;
+	background-color: #222;
 	font-family: Helvetica, sans-serif;
 	color: white;
 	animation: fadeInAnimation ease 1s;
@@ -67,3 +67,14 @@ a {
 	display: block;
 }
 
+#skills {
+	max-width: 45%;
+	float: left;
+}
+
+#selfie {
+	border-radius: 50%;
+	max-width: 45%;
+	padding: 35px;
+	float:right;
+}
