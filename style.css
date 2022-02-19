@@ -68,13 +68,14 @@ a {
 }
 
 #skills {
-	max-width: 45%;
+	max-width: 40%;
+	padding: 35px;
 	float: left;
 }
 
 #selfie {
 	border-radius: 50%;
-	max-width: 45%;
+	max-width: 40%;
 	padding: 35px;
-	float:right;
+	float: right;
 }
