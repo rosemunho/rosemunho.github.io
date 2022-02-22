@@ -1,0 +1,18 @@
+#skills {
+	max-width: 40%;
+	padding: 35px;
+	padding-left: 
+	float: left;
+}
+
+#selfie {
+	border-radius: 50%;
+	max-width: 40%;
+	padding: 35px;
+	padding-right: 55px;
+	float: right;
+	top: 50%
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+}
