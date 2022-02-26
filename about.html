@@ -4,6 +4,7 @@
 		<title>About Me</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/about.css">
+		<script type="text/javascript" src="javascript/timeline.js"></script>
 	</head>
 	<body>
 		<div class="menu">
@@ -44,9 +45,10 @@
 			<img id="selfie" src="imagens/it_me.png">
 		</div>
 		<div class="lower_section">
-			<div id="">
-			
-			</div>
+			<div id="timeline_list"></div>
+			<script>
+				document.addEventListener("DOMContentLoaded", function(event) { buildTimeline(undefined, "timeline_list");});
+			</script>
 		</div>
   	</body>
 </html>

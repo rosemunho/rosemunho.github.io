@@ -1,28 +1,32 @@
 {
-	"where": "Faculdade de Engenharia da Universidade do Porto",
-	"when": "October 2021 - Present",
-	"what": "Masters in Multimedia - Interactive Technologies and Digital Games"
-},
-{
-	"where": "Fabamaq",
-	"when": "May 2019 - Present",
-	"what": "Game Developer",
-	"which": "JavaScript, C++"
-},
-{
-	"where": "Lamina Studios",
-	"when": "March 2017 - December 2017",
-	"what": "Pixel Artist @ DUngeon Souls",
-	"which": "Adobe Photoshop"
-},
-{
-	"where": "3Decide",
-	"when": "March 2017 - August 2017",
-	"what": "Intern Programmer",
-	"which": "C#, Unity"
-},
-{
-	"where": "Instituto Superior de Engenharia do Porto",
-	"when": "September 2014 - November 2017",
-	"what": "BSc. in Informatics Engineering",
+	"places": [
+		{
+			"where": "Faculdade de Engenharia da Universidade do Porto",
+			"when": "October 2021 - Present",
+			"what": "Masters in Multimedia - Interactive Technologies and Digital Games"
+		},
+		{
+			"where": "Fabamaq",
+			"when": "May 2019 - Present",
+			"what": "Game Developer",
+			"which": "JavaScript, C++"
+		},
+		{
+			"where": "Lamina Studios",
+			"when": "March 2017 - December 2017",
+			"what": "Pixel Artist @ DUngeon Souls",
+			"which": "Adobe Photoshop"
+		},
+		{
+			"where": "3Decide",
+			"when": "March 2017 - August 2017",
+			"what": "Intern Programmer",
+			"which": "C#, Unity"
+		},
+		{
+			"where": "Instituto Superior de Engenharia do Porto",
+			"when": "September 2014 - November 2017",
+			"what": "BSc. in Informatics Engineering",
+		}
+	]
 }
