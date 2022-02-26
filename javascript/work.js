@@ -16,7 +16,7 @@ var timeline_json =
 		{
 			"where": "Lamina Studios",
 			"when": "March 2017 - December 2017",
-			"what": "Pixel Artist @ DUngeon Souls",
+			"what": "Pixel Artist @ Dungeon Souls",
 			"which": "Adobe Photoshop"
 		},
 		{
@@ -48,30 +48,29 @@ function buildTimeline(places, section_id)
 		let whereDiv = document.createElement("div");
 		whereDiv.classList.add("where");
 		let whereText = document.createTextNode(place.where);
-		console.log(place.where);
 		whereDiv.appendChild(whereText);
 		placeDiv.appendChild(whereDiv);
 		
 		let whenDiv = document.createElement("div");
 		whenDiv.classList.add("when");
 		let whenText = document.createTextNode(place.when);
-		console.log(place.when);
 		whenDiv.appendChild(whenText);
 		placeDiv.appendChild(whenDiv);
+
+		if(place.which !== undefined)
+		{
+			let whichDiv = document.createElement("div");
+			whichDiv.classList.add("which");
+			let whichText = document.createTextNode(place.which);
+			whichDiv.appendChild(whichText);
+			placeDiv.appendChild(whichDiv);   
+		}
 		
 		let whatDiv = document.createElement("div");
 		whatDiv.classList.add("what");
 		let whatText = document.createTextNode(place.what);
-		console.log(place.what);
 		whatDiv.appendChild(whatText);
 		placeDiv.appendChild(whatDiv);
-		
-		let whichDiv = document.createElement("div");
-		whichDiv.classList.add("which");
-		let whichText = document.createTextNode(place.which);
-		console.log(place.which);
-		whichDiv.appendChild(whichText);
-		placeDiv.appendChild(whichDiv);
 		
 		section.appendChild(placeDiv);
 	}

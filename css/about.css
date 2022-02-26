@@ -22,11 +22,12 @@
 }
 
 .where {
-	
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .when {
-	
+	font-size: 13px;
 }
 
 .what {

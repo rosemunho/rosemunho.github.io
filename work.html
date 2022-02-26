@@ -3,6 +3,8 @@
 	<head>
 		<title>Work Experience</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/work.css">
+		<script type="text/javascript" src="javascript/work.js"></script>
 	</head>
 	<body>
 		<div class="menu">
@@ -17,5 +19,11 @@
 			</div>
 			<div class="menu-button"><a href="other.html">Other Projects</a></div>
 	  	</div>
+		<div class="lower_section">
+			<div id="timeline_list"></div>
+			<script>
+				document.addEventListener("DOMContentLoaded", function(event) { buildTimeline(undefined, "timeline_list");});
+			</script>
+		</div>
   	</body>
 </html>
