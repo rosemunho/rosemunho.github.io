@@ -11,13 +11,15 @@ var timeline_json =
 			"where": "Fabamaq",
 			"when": "May 2019 - Present",
 			"what": "Game Developer",
-			"which": "JavaScript, C++"
+			"which": "JavaScript, C++",
+			"link": "work/fabamaq.html"
 		},
 		{
 			"where": "Lamina Studios",
 			"when": "March 2017 - December 2017",
 			"what": "Pixel Artist @ Dungeon Souls",
-			"which": "Adobe Photoshop"
+			"which": "Adobe Photoshop",
+			"link": "work/lamina.html"
 		},
 		{
 			"where": "3Decide",
@@ -48,7 +50,17 @@ function buildTimeline(places, section_id)
 		let whereDiv = document.createElement("div");
 		whereDiv.classList.add("where");
 		let whereText = document.createTextNode(place.where);
-		whereDiv.appendChild(whereText);
+		if(place.link !== undefined)
+		{
+			let whereLink = document.createElement("a");
+			whereLink.href = place.link;
+			whereLink.appendChild(whereText);
+			whereDiv.appendChild(whereLink);
+		}
+		else
+		{
+			whereDiv.appendChild(whereText);
+		}
 		placeDiv.appendChild(whereDiv);
 		
 		let whenDiv = document.createElement("div");
