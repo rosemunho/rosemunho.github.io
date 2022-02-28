@@ -1,0 +1,47 @@
+.category {
+	
+}
+
+.category_section {
+	
+}
+
+.title_divider {
+	
+}
+
+.project {
+	position: relative;
+	width: 50%;
+}
+
+.project_image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.project_overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+
+.project:hover .project_overlay {
+	opacity: 1;
+}
+
+.project_title {
+	color: black;
+}
+
+.project_description {
+	color: black;
+}
