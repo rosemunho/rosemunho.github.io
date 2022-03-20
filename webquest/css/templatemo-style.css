@@ -593,30 +593,31 @@ header {
 
 
 
-/* Projects Style */
+/* Evaluation Style */
 
-#process {
+#evaluation {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
 }
 
-#process .masonry {
+#evaluation .masonry {
   position: relative;
   width: 100%;
 }
 
-#process .masonry .item img {
+#evaluation .masonry .item img {
   transition: all 1s;
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#process .masonry .item img:hover {
+#evaluation .masonry .item img:hover {
   opacity: 0.5;
 }
 
+/* Resources Style */
 
 #resources {
   padding-left: 60px;
@@ -641,15 +642,15 @@ header {
 }
 
 
-/* Blog Style */
+/* Process Style */
 
-#evaluation {
+#process {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
 }
 
-#evaluation .tabs {
+#process .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -659,7 +660,7 @@ header {
   border-bottom: 10px solid #45489a;
 }
 
-#evaluation .tabs li {
+#process .tabs li {
   display: inline-block;
   text-align: center;
   width: 25%;
@@ -668,7 +669,7 @@ header {
   padding: 0;
 }
 
-#evaluation .tabs a {
+#process .tabs a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -681,16 +682,16 @@ header {
   transition: 0.5s;
 }
 
-#evaluation .tabs a:hover {
+#process .tabs a:hover {
   color: #45489a;
 }
 
 
-#evaluation .tabs .active:hover {
+#process .tabs .active:hover {
   color: #fff;
 }
 
-#evaluation .tabs .active {
+#process .tabs .active {
   background-color: #45489a;
   color: #fff;
 }
@@ -706,13 +707,13 @@ header {
   clear:both;
 }
 
-#evaluation .tabgroup ul {
+#process .tabgroup ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#evaluation .tabgroup ul li {
+#process .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -720,23 +721,23 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-#evaluation .tabgroup ul li:last-child {
+#process .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#evaluation .tabgroup ul li img {
+#process .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#evaluation .tabgroup ul li .text-content {
+#process .tabgroup ul li .text-content {
   display: inline;
 }
 
-#evaluation .item .text-content h4 {
+#process .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -746,7 +747,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-#evaluation .item .text-content span {
+#process .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -755,7 +756,7 @@ header {
   margin-bottom: 15px;
 }
 
-#evaluation .item .text-content .accent-button {
+#process .item .text-content .accent-button {
   margin-top: 25px;
 }
 
