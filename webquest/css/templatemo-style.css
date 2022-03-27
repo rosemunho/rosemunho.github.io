@@ -463,6 +463,11 @@ header {
   border-bottom: 1px solid #eee;
 }
 
+#tasks p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 #tasks .section-heading {
   margin-right: 20%;
 }
