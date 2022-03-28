@@ -622,6 +622,8 @@ header {
   opacity: 0.5;
 }
 
+
+
 /* Resources Style */
 
 #resources {
@@ -630,22 +632,19 @@ header {
   padding-bottom: 50px;
 }
 
-#resources .masonry {
-  position: relative;
-  width: 100%;
+#resources h4 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-#resources .masonry .item img {
-  transition: all 1s;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
+#resources li {
+  text-align: justify;
+  text-justify: inter-word;
 }
-
-#resources .masonry .item img:hover {
-  opacity: 0.5;
-}
-
 
 /* Process Style */
 
