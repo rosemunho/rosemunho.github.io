@@ -764,6 +764,10 @@ header {
   margin-top: 25px;
 }
 
+#process p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 
 
