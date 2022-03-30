@@ -835,6 +835,20 @@ header {
 }
 
 
+#conclusion p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+}
+
+#conclusion li {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+  color: #45489a;
+  font-weight: bold;
+}
+
 
 /* Footer Style */
 
