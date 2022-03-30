@@ -647,6 +647,16 @@ header {
   text-justify: inter-word;
 }
 
+#resources a {
+	text-decoration: underline;
+	color: #232323;
+}
+
+#resources a:hover {
+	font-weight: bold;
+	color: #45489a;
+}
+
 /* Process Style */
 
 #process {
