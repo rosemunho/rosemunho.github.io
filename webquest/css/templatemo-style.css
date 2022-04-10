@@ -801,10 +801,9 @@ header {
   font-size: 17px!important;
 }
 
-#conclusion li {
+#conclusion h4 {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 17px!important;
   color: #45489a;
   font-weight: bold;
 }
