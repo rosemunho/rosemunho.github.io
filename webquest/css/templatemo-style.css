@@ -464,11 +464,6 @@ header {
   border-bottom: 1px solid #eee;
 }
 
-#tasks p {
-	text-align: justify;
-	text-justify: inter-word;
-}
-
 #tasks .section-heading {
   margin-right: 20%;
 }
@@ -548,7 +543,7 @@ header {
 }
 
 #tasks .item .image .tasks-button a {
-  font-size: 13px;
+  font-size: 17px!important;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -577,6 +572,9 @@ header {
   background-color: #fff;
   position: relative;
   z-index: 10;
+  font-size: 17px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #tasks .item .text-content h4 {
@@ -590,7 +588,7 @@ header {
 
 #tasks .item .text-content span {
   display: inline-block;
-  font-size: 15px;
+  font-size: 17px!important;
   font-weight: 600;
   color: #7a7a7a;
   letter-spacing: 0.5px;
@@ -607,23 +605,27 @@ header {
   padding-bottom: 50px;
 }
 
-#evaluation .masonry {
-  position: relative;
-  width: 100%;
+#evaluation .section-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 17px!important;
 }
 
-#evaluation .masonry .item img {
-  transition: all 1s;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
+#evaluation li {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 17px!important;
+  color: #7a7a7a!important;
 }
 
-#evaluation .masonry .item img:hover {
-  opacity: 0.5;
+#evaluation h4 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  text-justify: inter-word;
 }
-
-
 
 /* Resources Style */
 
@@ -645,11 +647,14 @@ header {
 #resources li {
   text-align: justify;
   text-justify: inter-word;
+  color: #7a7a7a;
+  font-size: 17px;
 }
 
 #resources a {
 	text-decoration: underline;
-	color: #232323;
+	color: #7a7a7a;
+	font-size: 17px;
 }
 
 #resources a:hover {
@@ -790,72 +795,16 @@ header {
   padding-bottom: 50px;
 }
 
-#conclusion input {
-  border-radius: 0px;
-  padding-left: 15px;
-  font-size: 13px;
-  color: #aaa;
-  background-color: #f4f4f4;
-  border: 1px solid #eee;
-  outline: none;
-  box-shadow: none;
-  line-height: 40px;
-  height: 40px;
-  width: 100%;
-  margin-bottom: 25px;
-}
-
-#conclusion textarea {
-  border-radius: 0px;
-  padding-left: 15px;
-  padding-top: 10px;
-  font-size: 13px;
-  color: #aaa;
-  background-color: #f4f4f4;
-  border: 1px solid #eee;
-  outline: none;
-  box-shadow: none;
-  height: 200px;
-  max-height: 250px;
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 25px;
-}
-
-#conclusion button {
-  font-size: 13px;
-  border-radius: 0px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: capitalize;
-  background-color: #45489a;
-  display: inline-block;
-  height: 44px;
-  line-height: 24px;
-  outline: none;
-  box-shadow: none;
-  width: 100%;
-  letter-spacing: 0.25px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-#conclusion button:hover {
-  color: #232323;
-  background-color: #f4f4f4;
-}
-
-
 #conclusion p {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 15px;
+  font-size: 17px!important;
 }
 
 #conclusion li {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 15px;
+  font-size: 17px!important;
   color: #45489a;
   font-weight: bold;
 }
@@ -887,6 +836,56 @@ header {
   font-weight: 600;
 }
 
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tg {
+	border-collapse:collapse;
+	border-color:#ccc;
+	border-spacing:0;
+}
+.tg td {
+	background-color:#fff;
+	border-color:#ccc;
+	border-style:solid;
+	border-width:1px;
+	color:#333;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg th {
+	background-color:#f0f0f0;
+	border-color:#ccc;
+	border-style:solid;
+	border-width:1px;
+	color:#333;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+.tg .tg-baqh {
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-7btt {
+	border-color:inherit;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top
+}
+.tg .tg-amwm {
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top
+}
 
 
 /* Responsive Style */
