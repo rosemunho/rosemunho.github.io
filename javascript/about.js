@@ -9,8 +9,8 @@ var timeline_json =
 		},
 		{
 			"where": "Fabamaq",
-			"when": "May 2019 - Present",
-			"what": "Game Developer"
+			"when": "May 2019 - August 2023",
+			"what": "Game Developer // Godot Game Developer"
 		},
 		{
 			"where": "Lamina Studios",

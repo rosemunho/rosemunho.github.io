@@ -1,6 +1,19 @@
+.fixit{display:inline-block;clear:both;}
+* html .fixit{height:1%;}
+.fixit{display:block;}
+
 .category {
-	
+	width: 500px;
+	float:left;
+	height:260px;
+	margin-left:15px;
+	margin-top: 25px;
+	margin-bottom: 70px;
 }
+
+.lower_section {
+}
+
 
 .category_section {
 	
@@ -12,7 +25,11 @@
 
 .project {
 	position: relative;
-	width: 50%;
+	width: 450px;
+	float:left;
+	margin-left:15px;
+	margin-top: 25px;
+	margin-bottom: 70px;
 }
 
 .project_image {
@@ -31,7 +48,7 @@
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #008CBA;
+	background-color: #fff;
 }
 
 .project:hover .project_overlay {
