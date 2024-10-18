@@ -1,0 +1,31 @@
+body {
+	background-image: url('images/bg.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.intro {
+	margin: 100px;
+}
+
+button.imgButton {
+	background-image: url('images/box_bg.png');
+	background-size: contain;
+ 	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button.imgButton:hover {
+	background-image: url('images/box_bg.png');
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+container.nineSlice {
+	border-image: url('images/box_bg.png');
+	border-image-slice: 20 fill;
+}
