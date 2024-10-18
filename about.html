@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 	<head>
-		<title>Rosemunho</title>
+		<title>rosemunho</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/about.css">
-		<script type="text/javascript" src="javascript/about.js"></script>
+		<!--<script type="text/javascript" src="javascript/about.js"></script>-->
 	</head>
 	<body>
+		<!--
 		<div class="menu">
 	  		<div class="menu-button"><a href="index.html">Home</a></div>
 	  		<div class="menu-button"><a href="about.html">About Me</a></div>
@@ -19,36 +20,36 @@
 			</div>
 			<div class="menu-button"><a href="other.html">Other Projects</a></div>
 	  	</div>
+		-->
 		
-		<div class="upper_section">
-			<table id="skills">
-				<tr>
-					<th>
-						<dl>
-							<dt>Javascript</dt>
-							<dt>C++</dt>
-							<dt>C#</dt>
-							<dt>Java</dt>
-						</dl>
-					</th>
-					<th>
-						<dl>
-							<dt>Adobe Photoshop</dt>
-							<dt>Unity</dt>
-							<dt>Godot</dt>
-							<dt>Unreal Engine</dt>
-							<dt>Adobe After Effects</dt>
-						</dl>
-					</th>
-				</tr>
-			</table>
-			<img id="selfie" src="images/it_me.png">
+		<div id="aboutText" class="nineSlice">
+		
 		</div>
-		<div class="lower_section">
-			<div id="timeline_list"></div>
-			<script>
-				document.addEventListener("DOMContentLoaded", function(event) { buildTimeline(undefined, "timeline_list");});
-			</script>
+		
+		<div id="skills" class="nineSlice">
+			<h2>SKILLSET</h2>
+			<div id="gameEngines" class="nineSlice">
+				<ul>
+					<li>Godot</li>
+					<li>Unity</li>
+					<li>Unreal Engine 4</li>
+				</ul>
+			</div>
+			<div id="programmingLanguages" class="nineSlice">
+				<ul>
+					<li>GDScript</li>
+					<li>JavaScript</li>
+					<li>C#</li>
+					<!--<li>C++</li>-->
+				</ul>
+			</div>
+			<div id="otherSoftware" class="nineSlice">
+				<ul>
+					<li>Procreate</li>
+					<li>Adobe Photoshop</li>
+					<li>Adobe After Effects</li>
+				</ul>
+			</div>
 		</div>
   	</body>
 </html>

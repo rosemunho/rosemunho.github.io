@@ -1,3 +1,7 @@
+body{
+	background-color: #723B2C;
+}
+
 .fixit{display:inline-block;clear:both;}
 * html .fixit{height:1%;}
 .fixit{display:block;}
@@ -9,18 +13,6 @@
 	margin-left:15px;
 	margin-top: 25px;
 	margin-bottom: 70px;
-}
-
-.lower_section {
-}
-
-
-.category_section {
-	
-}
-
-.title_divider {
-	
 }
 
 .project {

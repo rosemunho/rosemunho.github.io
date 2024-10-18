@@ -1,34 +1,41 @@
 body {
-	background-color: #222;
-	font-family: Helvetica, sans-serif;
-	color: white;
-	background-image: url('images/background.png');
+	background-color: #723B2C;
+	background-image: url('../images/background.png');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.intro {
+
+#intro {
 	margin: 100px;
+	width: 450px;
+	height: 250px;
+}
+
+#intro .nineSlice {
+	padding:20px;
 }
 
 button.imgButton {
-	background-image: url('images/box_bg.png');
+	margin: 5px;
+	background-image: url();
 	background-size: contain;
  	background-repeat: no-repeat;
 	background-position: center center;
 }
 
 button.imgButton:hover {
-	background-image: url('images/box_bg.png');
+	margin: 5px;
+	background-image: url();
 	background-size:contain;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-
-container.nineSlice {
-	border-image: url('images/box_bg.png');
-	border-image-slice: 20 fill;
+.buttonGroup {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
