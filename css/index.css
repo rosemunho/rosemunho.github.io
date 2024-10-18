@@ -1,6 +1,7 @@
 body {
-	background-color: #723B2C;
 	background-image: url('../images/background.png');
+	background-color: rgba(64,56,6,0.65);
+	background-blend-mode: darken;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
