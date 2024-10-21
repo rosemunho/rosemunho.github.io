@@ -1,3 +1,16 @@
 body {
 	background-color: #7A6A13;
 }
+
+table {
+	
+}
+
+tr, th {
+	padding:20px;
+}
+
+#aboutText {
+	height: 200px;
+	width: 450px;
+}
