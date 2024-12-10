@@ -26,3 +26,9 @@ body {
   	border-image-repeat: round;
 	place-content: center;
 }
+
+.backButton {
+    width: 50px;
+	float:left;
+	height: 50px;
+}
