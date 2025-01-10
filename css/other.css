@@ -64,3 +64,8 @@ body{
 .categorySection {
 	align-items: center;
 }
+
+.tryIt {
+	text-align: center;
+	font-size: large;
+}
