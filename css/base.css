@@ -32,3 +32,25 @@ body {
 	float:left;
 	height: 50px;
 }
+
+button.imgButton {
+	margin: 5px;
+	background-image: url();
+	background-size: contain;
+ 	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+button.imgButton:hover {
+	margin: 5px;
+	background-image: url();
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.buttonGroup {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
