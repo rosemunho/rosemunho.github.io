@@ -61,9 +61,14 @@ button.imgButton:hover {
 	height: 600px;
 	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 	padding: 20px;
-	border: none;
 	color: #15110f;
 	text-align: justify;
+    border-image: url("../images/box_bg.png");
+    border-image-width: 20px;
+    border-image-slice: 20 fill;
+    border-image-repeat: round;
+    background-clip: padding-box;
+    border-radius: 14px;
 }
 
 .closeButton {
@@ -74,6 +79,8 @@ button.imgButton:hover {
 	height: 50px;
 	align-content: center;
 	color: #f1e5c4;
+    background-clip: padding-box;
+    border-radius: 14px;
 }
 
 .closeButtonImg {
