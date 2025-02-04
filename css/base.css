@@ -95,7 +95,8 @@ button.imgButton:hover {
 .popover_img {
 	width: 850px;
 	height: 550px;
-	object-fit: scale-down;display: block;
+	object-fit: scale-down;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
