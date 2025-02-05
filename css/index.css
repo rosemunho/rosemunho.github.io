@@ -27,4 +27,6 @@ body {
 
 #contacts img {
 	height: 30px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
