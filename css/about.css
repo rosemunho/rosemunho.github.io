@@ -3,13 +3,37 @@ body {
 }
 
 #about_text {
-	height: 240px;
-	width: 500px;
+	height: 260px;
+	width: 460px;
+	font-weight: normal;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	box-shadow: 0 0 10px 5px rgba(21, 17, 15, 0.1);
+	border-radius: 14px;
 }
 
 .skills {
-	text-align: justify;
 	padding-right: 40px;
+	text-align: justify;
+	font-weight: bold;
+	box-shadow: 0 0 10px 5px rgba(21, 17, 15, 0.1);
+	border-radius: 14px;
+}
+
+.skillset{
+	width: 320px;
+	font-weight: normal;
+	box-shadow: 0 0 10px 5px rgba(21, 17, 15, 0.1);
+	border-radius: 14px;
+}
+
+.other_skillset {
+	width: 260px;
+	float: right;
+	font-weight: normal;
+	box-shadow: 0 0 10px 5px rgba(21, 17, 15, 0.1);
+	border-radius: 14px;
 }
 
 .content {
@@ -19,9 +43,4 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-
-.skillset {
-	margin-top: -20%;
-	margin-left: -10%;
 }
