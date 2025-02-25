@@ -60,10 +60,10 @@ button.imgButton:hover {
 
 
 .extendedDescription {
-	width: 900px;
-	height: 600px;
+	width: 880px;
+	height: 580px;
 	box-shadow: 0 0 10px 5px rgba(21, 17, 15, 0.2);
-	padding: 20px;
+	padding: 30px;
 	color: #15110f;
 	text-align: justify;
     border-image: url("../images/box_bg.png");
@@ -93,12 +93,22 @@ button.imgButton:hover {
 }
 
 .popover_img {
-	width: 850px;
-	height: 550px;
 	object-fit: scale-down;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.long {
+	width: 800px;
+}
+
+.tall_s {
+	height: 100px;
+}
+
+.popover_img_group {
+	display: flex;
 }
 
 ::-webkit-scrollbar {
