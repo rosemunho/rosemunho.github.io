@@ -122,3 +122,8 @@ button.imgButton:hover {
 	border-width: 2px;
 	border-radius: 10px;
 }
+
+hr.solid {
+	border-top: 2px solid #cbb26c;
+	width: 50%;
+}
