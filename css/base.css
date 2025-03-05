@@ -102,7 +102,9 @@ button.imgButton:hover {
 .long {
 	width: 800px;
 }
-
+.long_m {
+	width: 400px;
+}
 .tall_s {
 	height: 100px;
 }
